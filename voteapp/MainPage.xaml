@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="voteapp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:voteapp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Name="grid1" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="513*"/>
+            <ColumnDefinition Width="511*"/>
+        </Grid.ColumnDefinitions>
+         <TextBlock x:Name="textBlock1" Grid.Column="1" HorizontalAlignment="Center" Margin="0,0,0,5" TextWrapping="Wrap" Text=".NET 5" VerticalAlignment="Bottom" FontSize="26.667"/>
+        <Grid Margin="0">
+            <Grid.RowDefinitions>
+                <RowDefinition x:Name="vier1" Height="283*"/>
+                <RowDefinition x:Name="vier2" Height="37*"/>
+            </Grid.RowDefinitions>
+            <Rectangle Fill="#FF8FFD94" Stroke="Black" VerticalAlignment="Stretch" Grid.Row="1" />
+              <TextBlock  HorizontalAlignment="Center" Margin="96,0,96.8,5" TextWrapping="Wrap" Text=".NET 4.6"  FontSize="26.667" VerticalAlignment="Bottom"/>
+     
+        </Grid>
+        <Grid Grid.Column="1" Margin="0">
+            <Grid.RowDefinitions>
+                <RowDefinition x:Name="funf1" Height="567*"/>
+                <RowDefinition x:Name="funf2" Height="73*"/>
+            </Grid.RowDefinitions>
+            <Rectangle Fill="#FF8F8FFD" Stroke="Black"  VerticalAlignment="Stretch" Grid.Row="1" />
+              <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="96,0,96.8,5" TextWrapping="Wrap" 
+                         Text=".NET 5"  FontSize="26.667" VerticalAlignment="Bottom"/>
+     
+
+        </Grid>
+
+    </Grid>
+</Page>
